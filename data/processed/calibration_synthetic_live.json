@@ -1,0 +1,25 @@
+{
+  "threshold": 0.005164562938830847,
+  "config": {
+    "fs": 100.0,
+    "max_gap_s": 0.05,
+    "normalize": true,
+    "hampel_window": 11,
+    "hampel_sigmas": 3.0,
+    "lp_order": 4,
+    "lp_cutoff_hz": 20.0,
+    "zero_phase": false,
+    "n_components": 3,
+    "drop_first_pc": false,
+    "pca_window_s": 10.0,
+    "activity_window_s": 1.0,
+    "hop_s": 0.5,
+    "threshold_method": "sigma",
+    "threshold_k": 3.0,
+    "threshold_percentile": 99.0,
+    "n_on": 2,
+    "n_off": 4,
+    "hold_s": 30.0
+  },
+  "calibrated_on": "../data/synthetic/sim_empty_1.csv"
+}

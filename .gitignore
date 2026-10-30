@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# ESP-IDF build output and local config (sdkconfig holds the Wi-Fi password)
+firmware/*/build/
+firmware/*/sdkconfig
+firmware/*/sdkconfig.old
+firmware/*/managed_components/
+firmware/*/dependencies.lock
+# regenerable synthetic data
+data/synthetic/
+
+# private working notes (repo is public)
+CLAUDE.md
